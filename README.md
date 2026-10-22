@@ -1,6 +1,6 @@
 # Yalla Daily
 
-Site statique d'apprentissage de l'hébreu et de l'anglais (niveau B1) à partir de l'actualité, de la géographie, de la culture générale et de la cuisine israélienne casher. Les mots progressent de graine 🌱 à pousse 🌿 puis arbre 🌳, et la traduction disparaît peu à peu des textes.
+Site statique d'apprentissage de l'hébreu et de l'anglais (niveau B1) à partir de l'actualité française et mondiale, de la géographie, de la culture générale et de la cuisine casher. Un accueil avec des tuiles colorées (Actu, Géographie, Culture G, Cuisine, Écouter & lire, Quiz, Mes mots, Progrès), une mission du jour, de l'XP, des badges. Les mots progressent de graine 🌱 à pousse 🌿 puis arbre 🌳 ; le quiz « Mes mots appris » les révise.
 
 Aucune étape de build : HTML, CSS et JavaScript simples.
 
@@ -23,9 +23,8 @@ puis ouvrir http://localhost:8000.
 Tout le contenu est dans `js/data.js`.
 
 1. Copier le bloc de la dernière édition dans `EDITIONS` et le placer **en premier** du tableau.
-2. Changer `id` (la date), `n`, `date`, puis les brèves, le lieu, la culture, la recette, les ressources et le quiz.
+2. Changer `id` (la date), `n`, `date`, puis `news` (avec `tag` : France, Europe, Monde, Économie, Science, Tech, Culture, Sport), `geo`, `culture`, `recipes`, `resources` et `quiz`.
 3. Déclarer les nouveaux mots dans `WORDS` et les lister dans `words`.
-4. Dans `mixed`, écrire des phrases en français avec `{id_du_mot|français}` ou `{id_du_mot|français|forme hébraïque}`.
 
 Les anciens mots non acquis reviennent automatiquement dans le quiz des nouvelles éditions.
 
